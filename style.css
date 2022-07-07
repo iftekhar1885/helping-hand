@@ -1,14 +1,15 @@
 .first-banner{
-background: url(images/flood.jpg); 
+background: url(images/flood\ helpiftii.jpg); 
     background-size: cover;
     height: 100vh;
     color: red;
     text-align: center;
+    
 }
 h1{
     text-align: center;
     text-shadow: bisque;
-    color: beige;
+    color: blue;
 }
 h3{
     text-align: center;
@@ -62,7 +63,7 @@ p{
     line-height: 200px;
     border-radius: 20px;
     margin: 8px;
-    background-shadow:green
+    box-shadow: 10px 10px;
 
 }
 .haif-width{
@@ -78,23 +79,30 @@ p{
     margin: 30px;
     color: red;
     padding-bottom: 20px;
+    border-bottom: red;
+    border-bottom: 10px;
 
 }
 .experience-item{
     width: 15%;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
     padding-left: 10px;
     text-align: center;
     line-height: 20px;
     float: left ;
     border-top: 5px solid green;
     background: linear-gradient(gray);
+    box-sizing: border-box;
+    border: 10px;
+    box-shadow: bisque 10px 10px 10px;
+    border-inline: 10px;
 
-#footer {
+#footer{
     background: black;
     height:80;
     width: 100%;
+    
 }
     
 
