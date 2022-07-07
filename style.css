@@ -1,0 +1,101 @@
+.first-banner{
+background: url(images/flood.jpg); 
+    background-size: cover;
+    height: 100vh;
+    color: red;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-shadow: bisque;
+    color: beige;
+}
+h3{
+    text-align: center;
+    text-shadow: beige;
+    color: burlywood;
+}
+label {
+    display: flex;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+label {
+  margin-right: 30; 
+  color: red;
+}
+.top-bottom{
+    color: black;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    color: black;
+    size: 59px;
+}
+p{
+    color: orange;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+.flexbox{
+    margin: 5;
+    padding: 5;
+    font-family: ;
+    box-sizing: 10;
+
+}
+.flex-container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap;
+    justify-content: space-evenly;
+}
+.flex-box{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(red,beige);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin: 8px;
+    background-shadow:green
+
+}
+.haif-width{
+    text-align: center;
+    color: red;
+    margin: 15px;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900;
+}
+.full-width{
+    text-align:center;
+    margin: 30px;
+    color: red;
+    padding-bottom: 20px;
+
+}
+.experience-item{
+    width: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    text-align: center;
+    line-height: 20px;
+    float: left ;
+    border-top: 5px solid green;
+    background: linear-gradient(gray);
+
+#footer {
+    background: black;
+    height:80;
+    width: 100%;
+}
+    
+
+
